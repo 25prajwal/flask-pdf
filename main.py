@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return ("Hello World! v2 <br> Dev : Prajwal Kedari <br> <a href="/Cheatpdf">Use App</a>)
+    return ("Hello World! v2 <br> Dev : Prajwal Kedari <br> <a href="/Cheatpdf">Use App</a>")
 @app.route('/Cheatpdf_work', methods = ['POST'])
 def split_pdf():
    if request.method == 'POST':
